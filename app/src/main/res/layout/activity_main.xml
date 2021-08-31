@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinzaBack"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="450dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/hintUser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,MissingConstraints,TextFields" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:hint="@string/hintPass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,InvalidId,MissingConstraints,TextFields" />
+     <Button
+         android:id="@+id/btnLogin"
+         android:layout_width="300dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="230dp"
+         android:background="@color/azul"
+         android:fontFamily="sans-serif"
+         android:textColor="@color/branco"
+        android:text="@string/btnLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         tools:ignore="InvalidId,MissingConstraints" />
+    <TextView
+        android:id="@+id/informaErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informaErroMSG"
+        android:visibility="invisible"
+        android:textSize="17sp"
+        android:textColor="@color/vermelho"
+        android:layout_marginTop="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ReservaMesas</string>
+    <string name="hintUser">Username</string>
+    <string name="hintPass">Password</string>
+    <string name="btnLogin">SIGN IN</string>
+    <string name="informaErroMSG">Usuário ou senha incorretos</string>
+    <string name="btnReservar">RESERVAR</string>
+    <string name="hintNumMesa">Número Mesa</string>
+    <string name="btnLiberar">LIBERAR MESA</string>
+    <string name="btnSalvar">SALVAR OPERAÇÃO</string>
+    <string name="btnReservarTodas">RESERVAR TODAS AS MESAS</string>
+    <string name="btnConfig">CONFIGURAÇÕES</string>
+    <string name="msgTodasReservadas">Operação inválida. Todas as mesas já possuem reserva!</string>
+    <string name="msgSelecionarCores">Escolha as cores:</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="verde">Verde</string>
+    <string name="amarelo">Amarelo</string>
+    <string name="azul">Azul</string>
+    <string name="preto">Preto</string>
+    <string name="branco">Branco</string>
+    <string name="marrom">Marrom</string>
+    <string name="msgCoresIguais">Selecione cores diferentes!</string>
+    <string name="stglivres">Livres</string>
+    <string name="stgreservadas">Reservadas</string>
+    <string name="stgsalvarcores">Salvar cores</string>
+
+</resources>
